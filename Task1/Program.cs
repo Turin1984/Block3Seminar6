@@ -1,7 +1,6 @@
 ﻿/*Задача 1: Пользователь вводит с клавиатуры M чисел. 
 Посчитайте, сколько чисел больше 0 ввёл пользователь.*/
 
-
 Console.Clear();
 
 Console.Write($"Введи число М(количество чисел): ");
@@ -15,7 +14,6 @@ for (int i = 0; i < m; i++)
     massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
   }
 }
-
 
 int Comparison(int[] massiveNumbers)
 {
